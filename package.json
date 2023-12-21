@@ -1,0 +1,30 @@
+{
+  "name": "crmgraphqlcurso",
+  "version": "1.0.0",
+  "description": "Curso de GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoMostafa/GraphQLCurso.git"
+  },
+  "author": "Franco Mostafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancoMostafa/GraphQLCurso/issues"
+  },
+  "homepage": "https://github.com/FrancoMostafa/GraphQLCurso#readme",
+  "dependencies": {
+    "apollo-server": "^3.12.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "moongose": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
